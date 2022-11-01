@@ -1,0 +1,49 @@
+.panel
+{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* border: 2px solid black; */
+  margin-top: 8rem;
+  align-items: stretch;
+  
+}
+
+.bar
+{
+    width: 1.6em;
+    height: 8em;
+    background-color:  rgb(243, 6, 57);
+}
+.left
+{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 4.5rem;
+    /* border: 2px solid rgb(250, 19, 19); */
+    
+}
+.text
+{
+    /* border: 2px solid rebeccapurple; */
+    color: rgb(33, 33, 80);
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 2.8rem;
+}
+
+.right
+{
+    /* border: 2px solid rgb(45, 173, 12); */
+    display: flex;
+    margin-left: 4.5rem;
+    justify-content: flex-end;
+    width: 50%;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 1.2em;
+    color: rgb(122, 102, 102);
+
+}

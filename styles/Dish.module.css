@@ -1,0 +1,26 @@
+.dish img
+{
+  width: 20em;
+  height: 20em;
+}
+
+.leaf img
+{
+    width: 20em;
+    height: 20em;
+}
+
+.dish
+{
+    margin-top: -16rem;
+    /* z-index: 1; */
+}
+
+.leaf{
+    margin-left: 1.5em;
+}
+
+.box
+{
+    border: 2px solid rgb(170, 30, 53);
+}

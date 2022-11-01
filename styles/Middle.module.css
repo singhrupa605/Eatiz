@@ -1,0 +1,83 @@
+
+.dot {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 244, 246) ;
+    background-image: radial-gradient(rgb(245, 226, 226), 10%, transparent 11%);
+    background-size: 38px 38px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+    margin-top: 5rem;
+    height: 30rem;
+  }
+
+.dot img{
+  height: 10em;
+  width: 10em
+}
+
+.dining
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  justify-content: flex-end;
+  height: 90%;
+}
+
+.pic
+{
+  width: 70%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 236, 225);
+  padding-top: 0.5em;
+}
+ 
+
+.scooter
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  background-color: rgb(255, 236, 225);
+  /* border: 2px solid red; */
+  height: 90%;
+}
+
+
+.scooterPic
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* border: 2px solid rgb(0, 47, 255); */
+}
+
+.heading p{
+  margin-top: -0.8em;
+}
+.heading h5{
+  margin-top: 0;
+  line-height: 1.3rem;
+}
+
+
+
+
