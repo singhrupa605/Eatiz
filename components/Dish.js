@@ -5,15 +5,14 @@ import styles from "../styles/Dish.module.css"
 import Image from "next/image";
 
 
-const Dish = ()=>
-{
-    return(
-        <div className={`${styles.box}`}>
-           <div className={`${styles.leaf} img-fluid`}>
-            <Image src={leaf} alt="Leaf"/>
-           </div>
-           <div className={`${styles.dish} img-fluid`}> 
-            <Image src={dish} alt="dish" />
+const Dish = () => {
+    return (
+        <div className={`${styles.right_banner}`}>
+            <div className={`${styles.dish}`}>
+                <div className={`${styles.leaf_img}`}>
+                    <Image alt="leaf" className="img-fluid" src={leaf} />
+                </div>
+                <Image alt="Dish" className="img-fluid" src={dish} />
             </div>
         </div>
 
