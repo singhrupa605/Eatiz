@@ -5,10 +5,11 @@ body {
   font-family: 'Outfit', sans-serif;
     background-color: rgb(253, 243, 245) ;
 }
+
 input{
   border: 0;
    outline: none;
-  
+   overflow: hidden;
 }
 button{
   border: 0;

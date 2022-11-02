@@ -1,5 +1,13 @@
+.footer {
+    width: 90vw;
+    padding: 1.5rem;
+    margin-top: 3rem;
+
+}
+
+
 .lettuce {
-    bottom: 0px;
+    bottom: 10px;
     width: 200px;
     height: 350px;
     z-index: -0.2;
@@ -7,27 +15,25 @@
     justify-content: flex-end;
     flex-direction: column;
     display: flex;
-    right: 50%;
+    right: 30%;
 }
 
 .lettuce_bg_img {
-    background-color: rgb(255, 244, 246);
     background-image: radial-gradient(rgb(214, 212, 212), 10%, transparent 11%);
-    background-size: 25px 25px;
+    background-size: 23px 23px;
     background-repeat: repeat;
-    background-position: top left;
     height: 80%;
-    width: 100%;
+    width: 80%;
     position: absolute;
-    top:4px;
-
+    top: 4px;
+    right: 20%;
 }
 
 .lettuce_img {
-    /* bottom: 50px; */
     width: 200px;
     height: 200px;
 }
+
 
 
 .lettuce_img img {
@@ -49,14 +55,11 @@
     z-index: 1;
 }
 
-.part2 {
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 .bar {
     width: 18px;
-    height: 80px;
+    height: 6rem;
     background-color: rgb(243, 6, 57);
 }
 
@@ -70,16 +73,14 @@
     font-size: 2.5rem;
     padding-left: 0.5em;
     line-height: 3rem;
-
-    line-break: auto;
 }
 
 
 .part1 p {
-    text-align:start;
+    text-align: start;
     word-wrap: break-word;
     font-size: 1.2em;
-    padding: 20px  2px ;
+    padding: 20px 2px;
     color: rgb(122, 102, 102);
     max-width: 600px;
     padding-left: 35px;
@@ -88,6 +89,7 @@
 .title {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .images {
@@ -109,9 +111,28 @@
 .footerRight {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     position: relative;
+    /* border: 2px solid red; */
+}
 
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width:576px) and (max-width:756px) {
+    .lettuce {
+        bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width:575px) {
+    .footerRight {
+        margin-left: -2.5rem;
+    }
 
 }

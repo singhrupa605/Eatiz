@@ -9,7 +9,7 @@ import { AiOutlineMenu } from "react-icons/ai"
 const NavBar = () => {
 
   const [open, setOpen] = React.useState(false);
-  const handleOpenSideBar = () => setOpen(!open);
+
 
 
   return (
@@ -19,7 +19,7 @@ const NavBar = () => {
       }
       <nav className="d-flex align-items-center justify-content-between px-5 navbar">
         <div className={styles.leftparent}>
-          <div className={styles.icon}><AiOutlineMenu onClick={handleOpenSideBar} /></div>
+          <div onClick={()=>setOpen(!open)} className={styles.icon}><AiOutlineMenu /></div>
           <div className={styles.logo}>
             <a href="#"> <h2>eatiz</h2></a>
           </div>

@@ -6,7 +6,7 @@ const Location = ()=>
 { 
        
     return (
-           <div id="loc"  className={`${styles.location} w3-container w3-right w3-animate-left`}  >     
+           <div  className={`${styles.location} w3-container w3-right w3-animate-left`}  >     
              <i className="material-icons">place</i> <p>Hyderabad</p> 
            </div>
     )

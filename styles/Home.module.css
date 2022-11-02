@@ -1,21 +1,33 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 .service {
   position: absolute;
   top: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .home {
   width: 100%;
-  overflow-x: hidden;
   display: flex;
   height: 80vh;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
 }
 
 .column1 {
   z-index: 10;
+  padding-left: 5rem;
+  margin-top: -5rem;
 }
 
 .bar {
@@ -28,10 +40,8 @@
   justify-content: flex-end;
   position: absolute;
   top: 0;
-  right: -3rem;
+  right: 0;
   margin-right: 0 !important;
-
-
 }
 
 
@@ -46,7 +56,6 @@
 
 .bar_child {
   margin-right: 15%;
-
 }
 
 .dots {
@@ -90,10 +99,11 @@
 .heading {
   color: rgb(40, 40, 100);
   font-weight: 700;
+  line-height: 2.5rem;
 }
 
 .searchbox {
-  max-width: 350px;
+  max-width: 400px;
   width: 100%;
   background-color: white;
 }
@@ -116,10 +126,38 @@
   }
 
   .service {
-    top: 90%
+    top: 80%
   }
 
   .food_heading {
-    color: rgb(253, 208, 208);
+    color: rgb(245, 219, 219);
   }
+}
+
+
+@media screen and (max-width:362px) 
+{
+  .bar
+  {
+    right: -20px;
+  }
+  
+}
+
+@media screen and  (max-height:700px) and (max-width:400px){
+  .bar
+  {
+        height: 90vh;   
+   }
+   .bar_child
+   {
+    margin-top: 3rem;
+   }
+   .column1
+   {
+       margin-top: 4rem;
+   }
+   .service{
+    margin-top: 5rem;
+   }
 }
